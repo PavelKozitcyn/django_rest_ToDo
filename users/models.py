@@ -7,4 +7,4 @@ class CustomUser(models.Model):
     user_name = models.CharField(max_length=64)
     first_name = models.CharField(max_length=64)
     last_name = models.CharField(max_length=64)
-    email = models.CharField(max_length=64, unique=True)
+    email = models.EmailField(max_length=64, unique=True)
