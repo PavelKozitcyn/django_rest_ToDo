@@ -1,4 +1,8 @@
 import random
+def generate_random_string(length):
+    letters = 'bobboyelevenmilliehopperjane'
+    rand_string = ''.join(random.choice(letters) for i in range(length))
+    
 
 a = 1
 b = 2
